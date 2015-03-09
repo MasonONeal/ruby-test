@@ -1,9 +1,11 @@
 # simple program that takes a comment or question and replies based on words used
 # user talks to the program
 
-system 'cls'
+system('clear')
 puts
-puts "Welcome, friend"
+puts " Welcome, friend!"
 puts
+puts " How are you?"
+print " "
 inut_string = gets.chomp
 
