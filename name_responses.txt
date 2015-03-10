@@ -8,4 +8,4 @@ Helen} Hi Helen!
 Helen} It's Helen. Yay!
 Aya} Hey Aya!
 Aya} It's Aya. Hi!
-Aya} Are you sure it's Aya?
+aya} Are you sure it's Aya?
