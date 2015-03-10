@@ -28,12 +28,12 @@ input = gets.chomp
 # main
 
 until ( user_name == "exit" )
-  # system('clear')
+  system('clear')
   puts
   puts " Welcome, friend!"
   puts
   puts
-  puts " Please tell me your name: "
+  print " Please tell me your name: "
 
   user_name = gets.chomp
   puts
@@ -52,9 +52,27 @@ until ( user_name == "exit" )
   end
 
   puts
-  puts " How are you?"
-  print " "
-  inut_string = gets.chomp
+  print " How are you? "
+  input_string = gets.chomp
+
+  reply = []
+  responses.each do |pair|
+    if input_string == pair[0]
+      reply << pair[1]
+    end
+  end
+
+  puts
+  if reply == []
+    puts " Ok."
+  else
+    puts " " + reply.sample
+  end
+  puts
+
+  puts "Press enter to play again"
+  gets
+
 end
 
 
